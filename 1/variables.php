@@ -15,9 +15,17 @@
     $nombre = "Luis Javier";
     $frase = "Luisja tiene $edad años";
     $frase2 = 'Luisja tiene $edad años';
-    $profesor = true;
+    $profesor = false;
 
     echo $edad;
+    echo "<br>";
+    echo $estatura;
+    echo "<br>";
+    echo "Tu nombre es " . $nombre;
+    echo json_encode($profesor);
+
+    //$6edad = "hola";
+    $for = 22;
 
 ?>
 
